@@ -11,10 +11,7 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(calls)
-  if calls.include?("calls.length > 4")
-  true
-else
-  false
+   calls.any? {|element| word.length > 4}
 end
   # Your code here
 end
