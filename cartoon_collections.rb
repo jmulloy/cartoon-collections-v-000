@@ -16,7 +16,7 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(cheddar_cheese)
-  cheddar_cheese.find?("cheddar")
+  cheddar_cheese.find("cheddar")
 
 
 end
