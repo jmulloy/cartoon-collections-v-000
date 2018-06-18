@@ -12,7 +12,6 @@ end
 
 def long_planeteer_calls(calls)
    calls.any? { |element| word.length > 4 }
-end
   # Your code here
 end
 
