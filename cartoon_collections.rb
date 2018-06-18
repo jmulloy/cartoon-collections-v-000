@@ -4,8 +4,8 @@ def roll_call_dwarves(dwarves)
    end
 end
 
-def summon_captain_planet(different)
-  array.map {|array|
+def summon_captain_planet(array)
+  different.map {|different|
   "#{different.capitalize}!"
 }
 
